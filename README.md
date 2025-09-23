@@ -4,8 +4,6 @@
 
 Proyek ini adalah solusi untuk **Data Analytics Competition (DAC) IFest 2025**, yang diselenggarakan oleh Himpunan Mahasiswa Teknik Informatika Universitas Padjadjaran (HIMATIF UNPAD). Kami membangun model *machine learning* untuk memprediksi rentang gaji kandidat berdasarkan data pada CV.
 
----
-
 ### 💻 Tech Stack
 
 <p align="center">
@@ -23,6 +21,29 @@ Proyek ini adalah solusi untuk **Data Analytics Competition (DAC) IFest 2025**, 
 ### 🎯 Tujuan Proyek
 
 Tujuan utama dari proyek ini adalah untuk memprediksi **rentang gaji yang wajar** bagi para profesional di bidang IT. Kami menggunakan model *multi-target regression* untuk memprediksi dua variabel target: `Estimated Bottom` dan `Estimated Up`, yang mewakili batas bawah dan batas atas dari ekspektasi gaji.
+
+---
+
+### 📂 Struktur Direktori
+
+Berikut adalah struktur folderisasi yang digunakan dalam proyek ini:
+
+- .
+- ├── Draft/
+- │   ├── draft Hakeem.ipynb
+- │   ├── draft Si_data_tuh.ipynb
+- │   ├── Hypertuned.ipynb
+- │   ├── Hypertuned ++.ipynb
+- │   └── (File kode draft lainnya...)
+- ├── the Best.ipynb
+- ├── train.csv
+- ├── test.csv
+- ├── submission.csv
+- └── README.md
+
+Folder **`Draft`** berisi semua eksperimen, ide, dan iterasi awal. Kode terbaik dan paling efisien, yang memberikan hasil akhir untuk kompetisi, berada di `the Best.ipynb`.
+
+---
 
 Model ini bertujuan untuk:
 * Membantu perusahaan dalam memberikan penawaran gaji yang kompetitif.
