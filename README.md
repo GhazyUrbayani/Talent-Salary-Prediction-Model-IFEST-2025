@@ -37,9 +37,10 @@ Berikut adalah struktur folderisasi yang digunakan dalam proyek ini:
 - │   ├── Hypertuned ++.ipynb
 - │   └── (File kode draft lainnya...)
 - ├── the Best.ipynb
-- ├── train.csv
-- ├── test.csv
-- ├── submission.csv
+- ├── Draft/
+- │   ├── train.csv
+- │   └── test.csv
+- ├── submission_final.csv
 - └── README.md
 
 Folder **`Draft`** berisi semua eksperimen, ide, dan iterasi awal. Kode terbaik dan paling efisien, yang memberikan hasil akhir untuk kompetisi, berada di `the Best.ipynb`.
